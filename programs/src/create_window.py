@@ -38,7 +38,7 @@ def create_window():
     # Tytuł programu:
     canvas.create_text(
         200,
-        50,
+        80,
         text="VectorTools",
         font=("Arial", 30, "bold"),
         fill="white"
@@ -49,7 +49,7 @@ def create_window():
 
     canvas.create_text(
         180,
-        420,
+        290,
         text="Wybierz operację:",
         font=("Arial", 16, "bold"),
         fill="white"
