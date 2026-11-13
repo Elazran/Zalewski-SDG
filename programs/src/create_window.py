@@ -55,4 +55,14 @@ def create_window():
         fill="white"
     )
 
+    canvas.create_text(
+        180,
+        350,
+        text="Nie załadowano pliku",
+        fill="#D77676",
+        tags="layer_status"
+    )
+
     return (window, canvas)
+
+    

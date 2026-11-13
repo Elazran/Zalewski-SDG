@@ -4,6 +4,7 @@ def update_menu(canvas):
     canvas.delete("layer_status")
 
     if get_layer() is not None:
+        
         canvas.create_text(
             180,
             350,
@@ -11,3 +12,11 @@ def update_menu(canvas):
             fill="#76A2D7",
             tags="layer_status"
         )
+    else:
+        canvas.create_text(
+            180,
+            350,
+            text="Nie załadowano pliku",
+            fill="#D77676",
+            tags="layer_status"
+            )
